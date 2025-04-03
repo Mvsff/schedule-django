@@ -21,3 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('learning_logs.urls')),
 ]
+
+'''
+Path retorna o endereçamento do site, neste segundo caso, onde temos aspas vazias, significa que o domínio 
+principal da página irá retornar o que está dentro do APP learning_logs
+'''
